@@ -1,0 +1,16 @@
+# # Request to setup the database
+# GET http://localhost:3000/setup
+
+# # Request to create a new user
+# POST http://localhost:3000/users
+# Content-Type: application/json
+
+# {
+#     "name": "John Doe",
+#     "email": "john.doe@example.com"
+# }
+
+# # Request to get all users
+# GET http://localhost:3000/users 
+
+

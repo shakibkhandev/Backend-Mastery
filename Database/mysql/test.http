@@ -1,0 +1,19 @@
+# # @name test
+# GET http://localhost:3000/
+
+
+# # @name setup
+# POST http://localhost:3000/setup
+
+# # @name createUser
+# POST http://localhost:3000/users
+# Content-Type: application/json
+
+# {
+#   "name": "John Doe",
+#   "email": "john.doe@example.com"
+# }
+
+# # @name getUsers
+# GET http://localhost:3000/users
+

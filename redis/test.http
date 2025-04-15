@@ -1,0 +1,14 @@
+### Set a key-value pair
+POST http://localhost:3000/set
+Content-Type: application/json
+
+{
+    "key": "testKey",
+    "value": "testValue"
+}
+
+### Get a value by key
+GET http://localhost:3000/get/testKey
+
+### Get counter value
+GET http://localhost:3000/counter 
